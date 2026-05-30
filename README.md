@@ -1,41 +1,47 @@
-# ⚡ CodeCollab — Real-Time Collaborative Code Editor
+# ⚡ CodeCollab — Real-time Collaborative Code Editor
 
-A full-stack real-time collaborative code editor where multiple users can write code together in the same room simultaneously.
+A professional real-time collaborative code editor built with React, Node.js, and Socket.io.
 
-## 🚀 Live Demo
-👉 https://code-collab-cyan.vercel.app
+🔗 **Live Demo:** https://code-collab-cyan.vercel.app
 
 ## ✨ Features
-- 💻 VS Code style Monaco editor
-- 🔄 Real-time code sync across all users
-- 💬 Live in-room chat
-- 🟢 Online users list
-- 🚪 Room-based collaboration system
+
+- 👥 Real-time collaboration — multiple users, same room
+- 💻 Monaco Editor (same as VS Code)
+- 🌐 Multi-language support — JavaScript, Python, C++, Java, TypeScript, Rust, Go
+- 🎨 Theme switcher — VS Dark, Light, High Contrast
+- 🔤 Font size control
+- ▶ Run code — JavaScript executes directly in browser
+- 📋 Copy code button
+- ⬇️ Download code as file
+- 💬 Real-time chat with typing indicators
+- 🔒 Room password protection
+- 👑 Room creator badge
+- 🚪 Leave room button
+- 📥 Standard input (stdin) panel
 
 ## 🛠️ Tech Stack
-| Frontend | Backend |
-|---|---|
-| React + Vite | Node.js + Express |
-| Monaco Editor | Socket.io |
-| Socket.io-client | JavaScript |
 
-## ⚙️ Run Locally
+- **Frontend:** React, Vite, Monaco Editor
+- **Backend:** Node.js, Express, Socket.io
+- **Deployment:** Vercel (frontend), Render (backend)
 
-**Backend:**
+## 🚀 Run Locally
+
 ```bash
+# Clone the repo
+git clone https://github.com/Parasnath017/code-collab.git
+
+# Start backend
 cd server
 npm install
 node server.js
-```
 
-**Frontend:**
-```bash
+# Start frontend
 cd client
 npm install
 npm run dev
 ```
 
-Open `http://localhost:5173`
-
 ## 👨‍💻 Author
-Paras — [GitHub](https://github.com/Parasnath017)
+Parasnath — [GitHub](https://github.com/Parasnath017)
